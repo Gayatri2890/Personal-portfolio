@@ -1,0 +1,132 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* Header */
+.hero {
+    background-color: #1e88e5;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1e88e5;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #1565c0;
+}
+
+.btn-secondary {
+    background-color: #e91e63;
+}
+
+.btn-secondary:hover {
+    background-color: #c2185b;
+}
+
+/* Sections */
+.section-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about-section {
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+.projects-section {
+    background-color: #f5f5f5;
+    padding: 80px 0;
+}
+
+/* Project Cards */
+.project {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project-title {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.project-description {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .project-title {
+        font-size: 1.5rem;
+    }
+
+    .project-description {
+        font-size: 1rem;
+    }
+}
